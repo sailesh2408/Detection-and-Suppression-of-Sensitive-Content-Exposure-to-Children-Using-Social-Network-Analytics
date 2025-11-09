@@ -22,7 +22,7 @@ It integrates with a **Social Network Analytics (SNA)** pipeline (using `Network
 ---
 
 ## 📁 Folder Structure
-
+```
 Project/
 ├── flan_t5_sna_adapter/ # Fine-tuned LoRA adapter (model + tokenizer)
 ├── sna_predict_llm.py # Inference + node-level risk scoring
@@ -31,7 +31,7 @@ Project/
 │ └── val.jsonl # Validation data
 ├── SNA.ipynb # Full training + evaluation notebook
 └── README.md # Project documentation
-
+```
 
 ---
 
